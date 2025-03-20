@@ -39,9 +39,9 @@ const TopNav = () => {
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" className="text-white">{language} ▼</Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuItem onClick={() => setLanguage("English")}>English</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => setLanguage("Spanish")}>Spanish</DropdownMenuItem>
+          <DropdownMenuContent className="bg-white border-0 p-0">
+            <DropdownMenuItem onClick={() => setLanguage("English")} className="hover:bg-gray-200 p-3">English</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => setLanguage("Spanish")} className="hover:bg-gray-200 p-3">Spanish</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
         <Bell className="w-5 h-5" />

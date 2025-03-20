@@ -50,7 +50,7 @@ export const Login = () => {
             <input type="checkbox" id="remember" className="h-4 w-4" />
             <Label htmlFor="remember">Remember me</Label>
           </div>
-          <Button className="w-50 bg-blue-500 text-white cursor-pointer hover:bg-blue-600" onClick={()=>navigate("/home")}>Login</Button>
+          <Button type="button" className="w-50 bg-blue-500 text-white cursor-pointer hover:bg-blue-600" onClick={()=>navigate("/home")}>Login</Button>
           <div className="text-center text-sm font-semibold">
             <a href="#" className=" hover:underline">
               Forgot Password?
